@@ -3,7 +3,7 @@ import { StyleSheet, ScrollView, Text, TextInput, TouchableOpacity, View } from 
 import Constants from 'expo-constants';
 import * as SQLite from 'expo-sqlite';
 
-const db = SQLite.openDatabase("test.db");  // Create a Database object and open the connection with the database 
+const db = SQLite.openDatabase("ANY NAME YOU WANT");  // Create a Database object and open the connection with the database 
 
 function Items({ done: doneHeading, onPressItem}) {
   const [items, setItems] = React.useState([]);   // we use items to store information (array)
